@@ -3,9 +3,12 @@ file: optionWindow.lua
 by: Solsis00
 for: ClickBoxHealer
 
+modified by:  Loonasy (loonasy@gmail.com)
+
 This file houses the configuration window for CBH.
 
 **COMPLETE: Converted to local cbh table successfully.
+**02/11/19 Modified to include Primalist class
 ]]--
 
 

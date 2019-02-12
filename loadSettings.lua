@@ -3,9 +3,12 @@ file: loadSettings.lua
 by: Solsis00
 for: ClickBoxHealer
 
+modified by:  Loonasy (loonasy@gmail.com)
+
 Default/saved settings are loaded and launch the beginning of CBH.
 
 **COMPLETE: Converted to local cbh table successfully.
+**02/11/19 Modified to include Primalist class
 ]]--
 
 

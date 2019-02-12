@@ -1,3 +1,8 @@
+tag v1.32
+loonasy <loonasy@gmail.com>
+
+Tagging as release 1.32
+
 loadSettings.lua
 	--modified dcbhCallingColors
 		--increased range to 9
@@ -13,3 +18,9 @@ optionWindow.lua
 		--added primalist
 	--modified cbh.OptionsCallingSelector.Event.ItemSelect to reflect increased range to 9
 	--modified cbh.UpdateCallingColorChanges to reflect increased range
+
+configWindowPlayer.lua
+	--updated version and patch notes displayed to user
+	--modified cbh.PlayerAppearanceTab to increase range
+
+Changed version information in .toc files and removed Curse information.

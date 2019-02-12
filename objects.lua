@@ -3,9 +3,12 @@ file: objects.lua
 by: Solsis00
 for: ClickBoxHealer
 
+modified by:  Loonasy (loonasy@gmail.com)
+
 Where the individual components are created. Not drawn... just created. Contains all the UI.Create defines organized by file/area.
 
 **COMPLETE: Converted to local cbh table successfully.
+**02/11/19 Modified to include Primalist class
 ]]--
 
 local addon, cbh = ...
@@ -52,10 +55,9 @@ cbh.NameGlowTable = { blurX=3, blurY=3, colorA=1, colorB=0, colorG=0, colorR=0, 
 -- INFORMATION DROPPED IN THE NOTIFICATION BOX WHEN CBH IS UPDATED.
 cbh.NotificationText = [[
 			**Welcome the Player and Target Frames**
-			######### v1.31 NOTES ########
+			######### v1.32 NOTES ########
 		
-* Fixed a bug with incorrect securemode for target frame
-* Fixed a bug that caused a nil values sometimes with buffs
+* Fixed a bug caused by the addition of the Primalist class
 ]]
 
 cbh.adetail = Inspect.Addon.Detail("ClickBoxHealer")

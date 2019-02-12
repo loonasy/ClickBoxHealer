@@ -27,7 +27,3 @@ RunOnStartup = {
   "UI.lua",
   "ApiBrowser.lua",
 }
--- X-Curse-Packaged-Version: v1.31
--- X-Curse-Project-Name: Click Box Healer
--- X-Curse-Project-ID: click-box-healer
--- X-Curse-Repository-ID: rift/click-box-healer/mainline

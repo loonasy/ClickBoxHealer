@@ -1,0 +1,15 @@
+loadSettings.lua
+	--modified dcbhCallingColors
+		--increased range to 9
+		--added check for primalist to show white color
+
+objects.lua
+	--modified cbh.ClassColors
+		--added line for primalist color to be white
+	--modified cbh.Calling to include primalist
+
+optionWindow.lua
+	--modified cbhcallinglist
+		--added primalist
+	--modified cbh.OptionsCallingSelector.Event.ItemSelect to reflect increased range to 9
+	--modified cbh.UpdateCallingColorChanges to reflect increased range

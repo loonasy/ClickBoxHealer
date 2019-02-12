@@ -135,7 +135,7 @@ end
 function cbh.FrameOptions()
 	cbh.TempColors = {}
 
-	for i = 1, 8 do
+	for i = 1, 9 do
 		cbh.TempColors[i] = {}
 		cbh.TempColors[i].r = cbhCallingColors[i].r
 		cbh.TempColors[i].g = cbhCallingColors[i].g
